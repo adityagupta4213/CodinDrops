@@ -11,8 +11,8 @@ body {
     text-align: center;
     background-color: $gray;
     color: $dk-gray;
-    font-family: serif;
-    font-size: 1.2rem;
+    font-family: "Merriweather", serif;
+    font-weight: 300;
     h2 {
         font-weight: bold;
         color: $black;
@@ -34,7 +34,7 @@ body {
 
 .footer {
     position: absolute;
-    bottom: 0;
+    bottom: 100;
     width: 100%;
     padding: 1.5rem;
     background-color: $gray;
