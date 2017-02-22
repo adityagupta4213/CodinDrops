@@ -86,7 +86,7 @@ h6 {
     transition: 0.3s ease;
 }
 
-.button:hover {
+.button:hover, .button:focus, .button:active {
     border-color: $black;
     background: transparent;
     color: $black;
