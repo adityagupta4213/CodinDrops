@@ -1,3 +1,5 @@
 @import '../../../style/style';
 
-
+.post:nth-child(1){
+    border-top: 1px solid $dk-gray;
+}
