@@ -35,6 +35,9 @@ h6 {
     a:hover {
         color: $black;
     }
+    .header-link{
+        font-size: 0.9rem;
+    }
 }
 
 .content {
@@ -60,8 +63,17 @@ h6 {
         .post-detail {
             font-family: "Open Sans", sans-serif;
             font-size: 0.9rem;
+            color: $dk-gray;
         }
     }
+}
+.link{
+    font-family: 'Open Sans', sans-serif;
+    color: $dk-gray;
+    transition: 0.3s;
+}
+.link:hover{
+    color: $black;
 }
 
 .button {
